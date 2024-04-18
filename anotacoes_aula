@@ -1,0 +1,32 @@
+git clone https://github.com/KaikyGuizelini/Aula-Introducao-a-Programacao.git
+    - Este comando cria uma pasta local com o nome do repositório
+
+cd nome da pasta
+    - Para entrar dentro da pasta do repositório
+    - O cd é usado para entrar dentro de algum diretório
+
+ls
+    - Este comando lista todos os arquivos e pastas dentro do diretório que vc está
+
+code .
+    - Se o Visual Studio Code estiver instalado e configurado, este comando abre o software já com o diretório que vc está usando aberto
+
+git status
+     - Este comando te informa todos os arquivos que foram modificados e ainda não foram salvos no seu diretório
+
+Subir um arquivo para o github:
+  ssh-keygen  -t ed25519 -C "Seu email logado no github"
+       - Precisa rodar este comando para que seja possível fazer commits e pushs
+          -> Será criada a pasta /ssh, entre nela com o cd .ssh
+          -> Digite cat id_ed25519.pub e será gerado um código
+          -> Entre em settings do github e clique em SSH and GPG keys
+          -> Clique em New SSH key, identifique sua máquina no título e cole o código gerado em key
+
+  git add .
+       - Irá adicionar no stad tudo que é preciso atualizar
+
+  git add {nome do arquivo}
+       - Irá adicionar no stad o arquivo que vc desejar
+
+  git commit -m 'mensagem'
+       - Irá commitar o arquivo e o -m serve para que vc possa adicionar uma mensagem
