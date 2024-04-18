@@ -30,3 +30,6 @@ Subir um arquivo para o github:
 
   git commit -m 'mensagem'
        - Irá commitar o arquivo e o -m serve para que vc possa adicionar uma mensagem
+
+  git push
+       - Para finalmente enviar para o github
